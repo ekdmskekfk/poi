@@ -1,5 +1,5 @@
-TM1650.on()
 score = 0
+TM1650.on()
 TM1650.show_number(score)
 
 def on_forever():
@@ -11,10 +11,4 @@ def on_forever():
         TM1650.show_number(score)
         basic.pause(100)
 basic.forever(on_forever)
-basic.show_leds("""
-. . . . .
-. . . . .
-. . # . .
-. . . . .
-. . . . .
-""")
+
